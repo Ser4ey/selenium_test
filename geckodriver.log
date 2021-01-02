@@ -1,0 +1,26 @@
+1609556810781	geckodriver	INFO	Listening on 127.0.0.1:36113
+1609556811786	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekKOeYH"
+*** You are running in headless mode.
+
+(firefox:157599): GLib-GObject-WARNING **: 03:06:52.256: invalid (NULL) pointer instance
+
+(firefox:157599): GLib-GObject-CRITICAL **: 03:06:52.256: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:157637): GLib-GObject-WARNING **: 03:06:52.821: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:157637): GLib-GObject-CRITICAL **: 03:06:52.821: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:157655): GLib-GObject-WARNING **: 03:06:52.999: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:157655): GLib-GObject-CRITICAL **: 03:06:52.999: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609556814650	Marionette	INFO	Listening on port 38701
+
+(/usr/lib/firefox/firefox:157711): GLib-GObject-WARNING **: 03:06:54.657: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:157711): GLib-GObject-CRITICAL **: 03:06:54.657: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1609556814732	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UBVKjIgL52oAupqoau5bmS4QFq3D8gEqQe5TpWWG23I.js line 1 > eval line 2514 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UBVKjIgL52oAupqoau5bmS4QFq3D8gEqQe5TpWWG23I.js line 1 > eval line 2514 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609556839666	Marionette	INFO	Stopped listening on port 38701
