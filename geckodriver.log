@@ -24,3 +24,29 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/UBVKjIgL52oAupqoau5
 JavaScript warning: https://pagead2.googlesyndication.com/bg/UBVKjIgL52oAupqoau5bmS4QFq3D8gEqQe5TpWWG23I.js line 1 > eval line 2514 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
 1609556839666	Marionette	INFO	Stopped listening on port 38701
+1609557390121	geckodriver	INFO	Listening on 127.0.0.1:42931
+1609557391125	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaKfhyd"
+*** You are running in headless mode.
+
+(firefox:157859): GLib-GObject-WARNING **: 03:16:31.523: invalid (NULL) pointer instance
+
+(firefox:157859): GLib-GObject-CRITICAL **: 03:16:31.523: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:157895): GLib-GObject-WARNING **: 03:16:32.085: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:157895): GLib-GObject-CRITICAL **: 03:16:32.085: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:157914): GLib-GObject-WARNING **: 03:16:32.271: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:157914): GLib-GObject-CRITICAL **: 03:16:32.271: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:157970): GLib-GObject-WARNING **: 03:16:33.931: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:157970): GLib-GObject-CRITICAL **: 03:16:33.931: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1609557393933	Marionette	INFO	Listening on port 42817
+1609557394063	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UBVKjIgL52oAupqoau5bmS4QFq3D8gEqQe5TpWWG23I.js line 1 > eval line 3592 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/UBVKjIgL52oAupqoau5bmS4QFq3D8gEqQe5TpWWG23I.js line 1 > eval line 3592 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1609557417112	Marionette	INFO	Stopped listening on port 42817
